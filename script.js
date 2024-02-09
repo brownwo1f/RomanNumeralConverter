@@ -38,7 +38,7 @@ function romanConvert(num){
     }
 }
 function errorMsg(msg){
-        p = document.createElement("p");
+        const p = document.createElement("p");
         p.innerText = msg;
         output.appendChild(p);
         output.classList.remove("hidden");
@@ -54,7 +54,7 @@ function errorMsg(msg){
         });
 }
 const rnumOut = (rnum) => {
-        p = document.createElement("p");
+        const p = document.createElement("p");
         p.innerText = rnum;
         output.appendChild(p);
         output.classList.remove("hidden");
